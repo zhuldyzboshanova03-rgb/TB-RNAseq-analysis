@@ -24,11 +24,11 @@ Differential gene expression analysis of whole-blood RNA-seq data comparing pati
 - Top genes include **BATF2, ANKRD22, APOL4, FCGR1A (CD64), SERPING1, GBP1/5/6, C1QB/C1QC and S100A9**, which overlap with published blood transcriptional signatures of active TB
 - Enriched pathways point to **innate immune activation**: defense response to bacterium, antimicrobial humoral response, neutrophil extracellular trap formation, complement activity and oxidative phosphorylation
 
-![Volcano plot](figures/volcano_plot.png)
+![Volcano plot](volcano_plot.png)
 
-![Heatmap of top 30 genes](figures/heatmap_top30.png)
+![Heatmap of top 30 genes](heatmap_top30.png)
 
-![Pathway enrichment](figures/pathway_enrichment.png)
+![Pathway enrichment](pathway_enrichment.png)
 
 ## Interpretation
 
@@ -41,7 +41,7 @@ Python · pandas · NumPy · scikit-learn · matplotlib · seaborn · PyDESeq2 �
 ## Repository contents
 
 - `TB_RNAseq_analysis.ipynb`: full analysis notebook
-- `figures/`: QC, volcano, heatmap and pathway plots
+- `*.png`: QC, volcano, heatmap and pathway plots
 
 ## Author
 
